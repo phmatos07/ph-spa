@@ -1,6 +1,10 @@
 {
   "name": "ph-spa",
   "version": "0.0.0",
+  "description": "SPA base de front-end desenvolvido em Angular, com layout em Material Design totalmente responsivo. Possui sistema de login e senha, com acesso modular e sub-modular de acordo com o perfil do usuário.",
+  "private": true,
+  "author": "Phelipe Matos - PHMATOS07",
+  "license": "GPL-3.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -12,7 +16,6 @@
     "lint:sass:vs": "sass-lint -c ./.sass-lint.yml -v -q -f visualstudio",
     "e2e": "ng e2e"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "~10.0.4",
     "@angular/cdk": "^10.1.1",
